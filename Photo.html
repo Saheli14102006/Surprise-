@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> PHOTO LAB </title>
+<style>
+  body{
+	background:url("https://i.pinimg.com/736x/39/f8/7a/39f87a5c9c74c50b2aac39170d128600.jpg")no-repeat center/cover;
+	background-size: 400% 800%;
+	animation: gradient 10s ease infinite;
+	margin: 0;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	text-align:center;
+	color:#333;
+}
+h1{
+margin:20px;
+font-size: 2.5em;
+color:#9C6565;
+text-shadow: 2px 2px 8px #ff4081;
+}
+.gallery{
+display: grid;
+grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+gap:20px;
+padding:20px;
+max-width: 1000px;
+margin: auto;
+}
+.photo-card{
+background:#fff;
+border-radius:15px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+overflow: hidden;
+transition: transform 0.3s;
+}
+.photo-card:hover{
+transform: scale(1.05);
+}
+.photo-card img{
+width: 100%;
+height: 250px;
+object-fit:cover;
+}
+.caption{
+padding:10px;
+font-size: 1em;
+color:#555;
+}
+.btn{
+padding:12px 25px;
+font-size: 1.2em;
+border:none;
+border-radius:30px;
+background:#ff4081;
+color:white;
+cursor:pointer;
+box-shadow: 0px 4px 15px rdba(0,0,0,0.3);
+transition: transform 0.2s, background 0.3s;
+}
+button{
+padding:12px 25px;
+font-size: 1.2em;
+border:none;
+border-radius:30px;
+background:#ff4081;
+color:white;
+cursor:pointer;
+box-shadow: 0px 4px 15px rdba(0,0,0,0.3);
+transition: transform 0.2s, background 0.3s;
+}
+.button-container{
+display:flex;
+justify-content: space-between;
+align-items:center;
+width: 80%;
+margin: 30px auto;
+}
+
+button:hover{
+background:#e73370;
+transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+<h1> 🎞️ThE PhOTo LaB 🎞️</h1>
+<div class="gallery">
+<div class="photo-card">
+<img src="https://i.postimg.cc/QNPLn5BD/IMG-20250712-230653-552.jpg" alt="Memory 1">
+<div class="caption"> Baby Version of My Baby Boy </div>
+</div> <br>
+
+<div class="photo-card">
+<img src="https://i.postimg.cc/TwcR8PDG/IMG-20250713-WA0003.jpg" alt="Memory 2">
+<div class="caption">  My Little Superman </div>
+</div>
+
+<div class="photo-card">
+<img src="https://i.postimg.cc/pT568c2v/IMG-20251004-131005.jpg" alt="Memory 3">
+<div class="caption">  First Photo of Yours Captured by Me  (Secretly) </div>
+</div>
+<br>
+<div class="photo-card">
+<img src="https://i.postimg.cc/MGSNkJ88/IMG-20251004-195304.jpg" alt="Memory 4">
+<div class="caption">  First Photo of Us </div>
+</div>
+<div class="photo-card">
+<img src="https://i.postimg.cc/MpQ07nN2/Screenshot-2025-10-04-20-01-56-62-92460851df6f172a4592fca41cc2d2eg.jpg" alt="Memory 5">
+<div class="caption"> Collecting Your Photos From Friends so I can watch them Again and Again</div>
+</div>
+<br>
+<div class="photo-card">
+<img src="https://i.postimg.cc/JhdPxfKr/Screenshot-2025-10-04-20-08-49-99-92460851df6f172a4592fca41cc2d2e6.jpg" alt="Memory 6">
+<div class="caption">  Finally You are Mine, We're Together and Now I don't have to Collect Your Pictures From Anyone Else  </div>
+</div>
+<div class="photo-card">
+<img src="https://i.postimg.cc/X7pNDdns/IMG-20250704-WA0042.jpg" alt="Memory 7">
+<div class="caption"> You Don't Like This Type of  Pics But I kinda Like It <br> Isn't it Sweet? </div>
+</div> <br>
+<div class="photo-card">
+<img src="https://i.postimg.cc/MK7wLDhR/Snapchat-336066960.jpg" alt="Memory 8">
+<div class="caption">  Us  </div>
+</div>
+</div>
+<div class="button-container">
+<a href="index.html" class="btn" >
+<button> Back </button>
+</a>
+ <a href="message.html" class="btn" >
+<button> Click Next </button>
+</a>
+</div>
+</body>
+</html>
